@@ -1,0 +1,16 @@
+.bg-photo {
+    background-image: url('./images/cover/cover-1.png');
+}
+
+.banner-size {
+    width: 1170px;
+    height: 600px;
+}
+
+.banner-button {
+    width: 100px;
+}
+
+.body-bg {
+    background-color: #FFFFFF;
+}
