@@ -9,6 +9,10 @@
     <!-- Bootstrap CSS CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
+    <!-- Font font-awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
     <!-- Custom CSS link -->
     <link rel="stylesheet" href="index.css">
 </head>
@@ -170,15 +174,113 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center">
-                <a class="text-white text-decoration-none bg-primary px-4 py-2 rounded" href="">See More Courses</a>
+            <div class="text-center mb-5">
+                <a class="text-white text-decoration-none bg-primary px-4 py-2 rounded " href="">See More Courses</a>
             </div>
         </section>
-
-
         <!-- Courses Section ends Here -->
+
+        <!-- Frequently Questions section start here -->
+        <section class="container w-75 my-5">
+
+            <div class="text-center">
+                <div class="my-5">
+                    <h2 class="fw-bold">Frequently Asked Questions</h2>
+                    <p class="small">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
+                </div>
+            </div>
+
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What are the differences between flexbox and grid layot?
+                    </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Grid and flexbox. </strong> The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional
+                            layout - rows, and columns at the same time.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            What is the differences between tailwind and Bootstrap?
+                    </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Bootstrap vs Tailwind CSS: </strong> Bootstrap and Tailwind CSS "Front-End Frameworks" tools. And both open source too.
+                            <p></p> Bootstrap pre-styled responsive, mobile-first, components that possess a definite UI kit. it's known for their responsiveness and flawless design, better, faster, and easier. It is beginner-friendly, including HTML, CSS,
+                            and JavaScript. And contains CSS and JavaScript-based design templates for typography, forms, navigation, and other interface components. It is based on object-oriented CSS. Bootstrap helps to design and develop website templates
+                            quickly. <br>
+                            <p></p> Tailwind CSS is a utility-first CSS framework for building custom user interfaces uses a set of utility classes to create a neat UI with more flexibility and uniqueness. It is a highly customizable, low-level CSS framework,
+                            Tailwind CSS predesigned widgets to build a site from scratch with fast UI development.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What is CSS box model?
+                    </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>The CSS Box Model</strong> it's all about design and layout. In order to set the width and height of an element correctly in all browsers, you need to know how the box model works. The box model allows us to add a border
+                            around elements, and to define space between elements. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+                            <p>Explanation of the different parts:</p>
+                            <p>Content - The content of the box, where text and images appear</p>
+                            <p>Padding - Clears an area around the content. The padding is transparent</p>
+                            <p>Border - A border that goes around the padding and content </p>
+                            <p> Margin - Clears an area outside the border. The margin is transparent. </p>
+                            <p>The total width and height of an element should be calculated like this: Total element width = width + left padding + right padding + left border + right border + left margin + right margin :</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What is a semantic tag?
+                    </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Semantic HTML elements are those that clearly describe their meaning in a human- and machine-readable way</strong>The HTML semantics tags provide meaning to an HTML page rather than just presentation or non-semantic
+                            A semantic element clearly describes its meaning to both the browser and the developer.
+                            <p></p> Elements such as header, footer, and article are all considered semantic because they accurately describe the purpose of the element and the type of content that is inside them.
+                            <p></p> Examples of non-semantic elements: div, and span, - Tells nothing about its content.
+                            <p></p> Examples of semantic elements: form, table, and article - Clearly defines its content.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Frequently Questions section End here -->
+
+
     </main>
     <!-- main part End Here  -->
+    <!-- Foter Section Start Here -->
+    <footer>
+        <section class="bg-black text-center p-5 ">
+            <h2 class="text-white">Tech-Learning</h2>
+            <p class="text-secondary">Office 41, Zawaya Buildin, Ghala Muscat, <br> Sultanate of Oman </p>
+            <p class="text-secondary">Privacy Ploicy | Terms of use</p>
+            <div>
+                <div class="footer-icon-container">
+                    <button class="btn border-0"> <a target="_blank" href="https://www.facebook.com/facebook/?brand_redir=123739327653840"><i id="fb-icon" class=" footer-icon fa-brands fa-2x fa-facebook-square"></i></a></button>
+                    <button class="btn border-0"> <a target="_blank" href="https://www.youtube.com/"><i id="youtube-icon" class="footer-icon  fa-brands fa-2x  fa-youtube"></i></a> </button>
+                    <button class="btn border-0"><a target="_blank" href="https://www.linkedin.com/company/linkedin/"><i id="linked-in-icon" class=" footer-icon fa-brands fa-2x  fa-linkedin"></i></a></button>
+                </div>
+            </div>
+
+        </section>
+    </footer>
+    <!-- Footer Section End here -->
 
     <!-- Bootstrap Js CDN link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>

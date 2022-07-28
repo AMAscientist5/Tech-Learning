@@ -14,3 +14,9 @@
 .body-bg {
     background-color: #FFFFFF;
 }
+
+#youtube-icon,
+#linked-in-icon,
+#fb-icon {
+    color: white;
+}
