@@ -1,7 +1,3 @@
-.bg-photo {
-    background-image: url('./images/cover/cover-1.png');
-}
-
 .banner-size {
     width: 1170px;
     height: 560px;
@@ -19,4 +15,13 @@
 #linked-in-icon,
 #fb-icon {
     color: white;
+}
+
+.register-text-color {
+    color: #F4F4F4;
+}
+
+.custom-size {
+    width: 120;
+    height: 40px;
 }
