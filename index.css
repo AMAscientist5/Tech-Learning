@@ -1,6 +1,13 @@
+/* header section */
+
 .banner-size {
     width: 1170px;
     height: 560px;
+}
+
+.custom-img {
+    height: 70vh;
+    object-fit: cover;
 }
 
 .banner-button {
@@ -11,11 +18,8 @@
     background-color: #FFFFFF;
 }
 
-#youtube-icon,
-#linked-in-icon,
-#fb-icon {
-    color: white;
-}
+
+/* register section */
 
 .register-text-color {
     color: #F4F4F4;
@@ -26,6 +30,9 @@
     height: 40px;
 }
 
+
+/* explore section */
+
 .explore-bg-color {
     background-color: #F4FAFD;
 }
@@ -34,6 +41,9 @@
     width: 100%;
     height: 100%;
 }
+
+
+/* fedback section */
 
 #fedback-right-arrow-one {
     width: 40px;
@@ -48,4 +58,17 @@
     height: 40px;
     top: 45%;
     left: 550px;
+}
+
+
+/* footer section  */
+
+#youtube-icon {
+    background-color: red;
+}
+
+#linked-in-icon,
+#fb-icon {
+    background-color: white;
+    color: white;
 }
